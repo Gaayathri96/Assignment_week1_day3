@@ -19,6 +19,7 @@ print("Step2: Open a new tab and navigate to the AccuWeather Chennai weather for
 pyautogui.write('https://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671')
 time.sleep(2)
 pyautogui.press('enter')
+time.sleep(5)
 
 print("Step3: Select all text and copy it")
 pyautogui.hotkey('ctrl', 'a', interval=0.25)
@@ -31,6 +32,7 @@ pyautogui.hotkey('win', 'r')
 time.sleep(2)
 pyautogui.write('notepad')
 pyautogui.press('enter')
+time.sleep(2)
 
 pyautogui.hotkey('ctrl', 'v', interval=0.25)
 time.sleep(2)
